@@ -1,0 +1,49 @@
+{
+  "name": "leaderboard-frontend",
+  "description": "A library for creating side-scrolling canvas thingys, and cool stuff like that.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dav-/scene-scroller",
+  "contributors": [
+  {
+    "name": "Derrick Cohodas",
+    "email": "derrick@cohodas.me",
+    "url": "http://derrick.cohodas.me"
+  },
+  {
+    "name": "Your Name Here",
+    "email": "name@email.com",
+    "url": "htpp://homepage.com"
+  }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/developersguild/leaderboard-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/developersguild/leaderboard-frontend/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "src/Main.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-concat-in-order": "0.1.6",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-uglify": "~0.3.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-cli": "~1.5.0",
+    "load-grunt-tasks": "~0.3.0",
+    "should": "~3.1.0"
+  },
+  "keywords": []
+}
