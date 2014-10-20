@@ -4,16 +4,16 @@
   "version": "0.1.0",
   "homepage": "https://github.com/dav-/scene-scroller",
   "contributors": [
-  {
-    "name": "Derrick Cohodas",
-    "email": "derrick@cohodas.me",
-    "url": "http://derrick.cohodas.me"
-  },
-  {
-    "name": "Your Name Here",
-    "email": "name@email.com",
-    "url": "htpp://homepage.com"
-  }
+    {
+      "name": "Derrick Cohodas",
+      "email": "derrick@cohodas.me",
+      "url": "http://derrick.cohodas.me"
+    },
+    {
+      "name": "Your Name Here",
+      "email": "name@email.com",
+      "url": "htpp://homepage.com"
+    }
   ],
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
-  "main": "src/Main.js",
+  "main": "src/Class.js",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -36,12 +36,14 @@
     "test": "grunt test"
   },
   "devDependencies": {
+    "commander": "^2.4.0",
+    "glob": "^4.0.6",
     "grunt": "~0.4.2",
     "grunt-concat-in-order": "0.1.6",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-uglify": "~0.3.1",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-mocha-cli": "~1.5.0",
+    "grunt-mocha-cli": "^1.10.0",
     "load-grunt-tasks": "~0.3.0",
     "should": "~3.1.0"
   },

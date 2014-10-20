@@ -58,15 +58,34 @@ module.exports = function (grunt) {
      */
 
     mochacli: {
-      options: {
+      /*options: {
         reporter: 'spec',
         require: ['should'],
 
         project: {
-          src: ['test/*.spec.js']
+          src: ['test/**\/*.spec.js']
         }
-      }
+      }*/
+      options: {
+            require: ['should'],
+            reporter: 'spec',
+            bail: true
+        },
+        all: ['test/*.js']
     },
+
+    /*
+    mochacli:
+      options:
+        reporter:                 'spec'                                      # This report is nice and human-readable
+        require:                  ['should']                                  # Run the tests using Should.js
+        compilers:                ['coffee:coffee-script/register']
+
+      # Targets
+
+      project:                    # Run the project's tests
+        src:                      ['<%= tstFiles %>']
+     */
 
     /**
      * Clean - Clean the target files & folders, deleting anything inside
