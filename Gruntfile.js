@@ -17,7 +17,7 @@ module.exports = function (grunt) {
     concat_in_order: {
       main: {
         files: {
-            'build/<%= pkg.name %>.js': ['src/concat/head.js', '<%= pkg.main %>', 'src/concat/tail.js']
+            'build/<%= pkg.name %>.js': ['src/js/concat/head.js', '<%= pkg.main %>', 'src/js/concat/tail.js']
         },
         options: {
             extractRequired: function(filepath, filecontent) {

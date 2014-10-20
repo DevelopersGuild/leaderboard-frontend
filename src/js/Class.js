@@ -9,6 +9,11 @@ var Class = function() {
   this.derp = function(str){
     return "derp"
   }
+
+
+  this.herp = function(str){
+    return "herp"
+  }
 }
 
 if(typeof module !== "undefined") {

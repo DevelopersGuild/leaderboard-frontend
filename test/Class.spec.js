@@ -1,5 +1,5 @@
 var should = require("should"),
-    MyClass = require("../src/Class")
+    MyClass = require("../src/js/Class")
 
 describe("A Class Suite", function(){
   var myclass
